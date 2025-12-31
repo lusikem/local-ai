@@ -70,28 +70,6 @@ You can fine-tune models like **Mistral** or **LLaMA** with your own datasets to
 
 ---
 
-#### Dataset Formats
-
-Most open-source fine-tuning tools accept data in one of the following formats:
-
-- **JSONL** — preferred for Ollama, LLaMA.cpp, and many transformers
-  ```json
-  {"role": "user", "content": "What is forest conservation?"}
-  {"role": "assistant", "content": "It refers to protecting and managing forests for future generations."}
-
-Text prompt-response pairs (used in Alpaca/LLaMA-style fine-tuning)
-### Instruction:
-Translate the following into Swahili.
-
-### Input:
-Hello, how are you?
-
-### Response:
-Habari, hujambo?
-
-CSV/TSV is common for Q&A or classification tasks
-Parquet is often used for large-scale data pipelines (advanced use)
-
 
 ## Requirements
 

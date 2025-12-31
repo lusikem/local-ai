@@ -1,4 +1,4 @@
-# Local-AI. Offline First AI for Everyone
+# Local-AI. Offline Low-power AI for Everyone
 
 > Run AI models entirely on your own device, without cloud, subscriptions, or internet access.
 

@@ -1,0 +1,62 @@
+Finetuning Guide for Local-AI
+
+This document explains how to fine-tune local language models (LLMs) like Mistral or LLaMA using your own datasets for offline use. Perfect for creating personalized assistants, chatbots, or domain-specific tools.
+
+
+1. Dataset Formats
+
+JSONL (Preferred)
+```json
+{"role": "user", "content": "What is forest conservation?"}
+{"role": "assistant", "content": "It refers to protecting and managing forests for future generations."}
+```
+
+2. Instruction-Style Prompt Format
+```
+Instruction:
+Translate the following into Swahili.
+
+Input:
+Hello, how are you?
+
+Response:
+Habari, hujambo?
+```
+
+
+3. Example: Ollama Training
+
+a) Prepare Your Dataset
+Create a file like `swahili-qna.jsonl`:
+```jsonl
+{"role": "user", "content": "What is a rift valley?"}
+{"role": "assistant", "content": "A lowland region formed by tectonic plate movements."}
+```
+
+b)  Run Ollama Training
+```bash
+ollama train \
+  --model mistral \
+  --dataset ./swahili-qna.jsonl \
+  --output ./mistral-finetuned
+```
+
+c) Run the Finetuned Model
+```bash
+ollama run mistral-finetuned
+```
+
+4.  Tips
+- Keep your training data clean and concise
+- Use culturally relevant examples
+- Start small and test the model output before scaling
+
+5. Contribute
+Want to improve this guide or share training data for your language?
+- Fork the repo
+- Add your dataset to `/datasets.`
+- Update this guide
+- Submit a PR
+
+
+Questions? Join our community discussion board or open an issue.

@@ -1,26 +1,32 @@
 # Local-AI. Offline Low-power AI for Everyone
 
-> Run AI models entirely on your own device, without cloud, subscriptions, or internet access.
+> Run light-weight AI models entirely on your own device, without cloud, subscriptions, or internet access.
 
 ## Overview
 
-**Local-AI** is an open-source project that empowers users to run powerful language models (LLMs) on their local devices — even with limited computing power. Whether you're working on a feature phone, an older CPU-based laptop, or deploying to rural areas with unreliable connectivity, Local-AI gives you full control over your data and models.
+**Local-AI** is an open-source project that empowers users to run light-weight language models (LLMs) on their local devices with limited computing power. Whether you're working with an older CPU-based laptop or deploying in remote or rural areas with unreliable connectivity, Local-AI gives you full control over your data and models.
 
 This project uses the following stack:
 
-- [Ollama](https://ollama.com) — to run and customize LLMs on macOS, Linux, and Windows
-- [Open Web UI](https://github.com/open-webui/open-webui) — a browser-based chat interface, offline and open-source
-- [Docker](https://www.docker.com) — for simple and reproducible deployments
+[Ollama](https://ollama.com) — to run and customize LLMs on macOS, Linux, and Windows
+
+[Open Web UI](https://github.com/open-webui/open-webui) — a browser-based chat interface, offline and open-source
+
+[Docker](https://www.docker.com) — for simple and reproducible deployments
 
 ---
 
 ## Features
 
-- ✅ **Run Offline** — Works without internet access or cloud services
-- 🔐 **100% Private** — Keeps all data on your device
-- 🧩 **Customizable** — Fine-tune and personalize your own AI models
-- 💸 **Free and Open Source** — No subscriptions or vendor lock-in
-- 💻 **Low Resource Compatible** — Works on CPUs, no GPU required
+ **Run Offline** — Works without internet access or cloud services
+
+ **100% Private** — Keeps all data on your device
+
+ **Customizable** — Fine-tune and personalize your own AI models
+
+ **Free and Open Source** — No subscriptions or vendor lock-in
+
+ **Low Resource Compatible** — Works on CPUs, no GPU required
 
 ---
 
@@ -45,6 +51,11 @@ This starts a local REPL (interactive terminal). Here, you can type your prompts
 
 ### 3. Launch Open Web UI (Optional GUI)
 
+Use Docker to run Open Web UI locally:
+
+Use Docker to run Open Web UI locally:
+
+bash
 docker run --detach \
   --publish 3000:8080 \
   --add-host=host.docker.internal:host-gateway \
@@ -53,30 +64,54 @@ docker run --detach \
   --restart always \
   ghcr.io/open-webui/open-webui:main
 
-Access the UI at: http://localhost:3000
+Once running, access the interface at:
 
+Once running, access the interface at:
+
+ 
 ### 4. Customize your model
 
-You can fine-tune models like Mistral with your own data (e.g., Swahili Q&A) using JSONL files
+You can fine-tune models like **Mistral** or **LLaMA** with your own datasets to adapt them to specific tasks, languages, or community knowledge.
 
-ollama train \
-  --model mistral \
-  --dataset ./dataset.jsonl \
-  --output ./fine-tuned-model
+####  Common Use Cases
+- Chatbots trained on regional or cultural knowledge (e.g., Swahili, Dholuo)
+- Domain-specific assistants (e.g., legal, medical, farming)
+- Q&A over PDFs, spreadsheets, or transcribed audio
+- Creative writing, translation, or grammar correction
 
-## Optional SMS Integration
-Integrate with SMS tools like:
+---
 
-Africa's Talking
-Twilio
-TextMagic
-You can use Gammu to send/receive SMS from a modem or Android phone. This enables interaction with your LLM without internet access.
+#### Dataset Formats
+
+Most open-source fine-tuning tools accept data in one of the following formats:
+
+- **JSONL** — preferred for Ollama, LLaMA.cpp, and many transformers
+  ```json
+  {"role": "user", "content": "What is forest conservation?"}
+  {"role": "assistant", "content": "It refers to protecting and managing forests for future generations."}
+
+Text prompt-response pairs (used in Alpaca/LLaMA-style fine-tuning)
+### Instruction:
+Translate the following into Swahili.
+
+### Input:
+Hello, how are you?
+
+### Response:
+Habari, hujambo?
+
+CSV/TSV is common for Q&A or classification tasks
+Parquet is often used for large-scale data pipelines (advanced use)
+
 
 ## Requirements
 
 macOS/Linux/Windows
+
 Docker (optional for GUI)
+
 CPU with at least 8GB RAM is recommended
+
 Terminal access
 
 ## License
@@ -93,7 +128,7 @@ Submit a PR from your fork to the original repo
 
 ## Community & Purpose
 
-This project was built with communities in mind who have:
+This project is built for users/communities that have:
 Limited access to reliable internet
 Concerns over data privacy and AI surveillance
 A need for localized, culturally-relevant AI tools

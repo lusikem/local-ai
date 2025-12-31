@@ -1,9 +1,51 @@
+
 *.pyc
 __pycache__/
+
+# Environment files
 .env
+.env.*
+
+# IDE and editor config files
 .vscode/
+.idea/
+
+# Log and debug files
 *.log
+*.out
+*.tmp
+
+# Model checkpoints and weights
 *.ckpt
 *.pt
+*.bin
 *.gguf
+
+# Dataset artifacts
+*.csv
+*.tsv
+*.parquet
+*.jsonl.bak
+
+# MacOS system files
 .DS_Store
+
+# Docker volumes and build files
+volumes/
+*.tar
+
+# Node/Web build artifacts (if using Web UI)
+node_modules/
+dist/
+build/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model output and intermediate fine-tuned files
+mistral-finetuned/
+*.trained
+
+# Ignore public data downloads (if using scripts)
+data/
+!data/README.md

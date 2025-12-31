@@ -1,0 +1,38 @@
+{"role": "user", "content": "What should I do if someone faints?"}
+{"role": "assistant", "content": "Lay them down flat, raise their legs, and ensure good airflow. Seek help if they don’t wake up quickly."}
+
+{"role": "user", "content": "Is it safe to use herbal medicine with antibiotics?"}
+{"role": "assistant", "content": "Always consult a health worker before combining treatments."}
+
+{"role": "user", "content": "How do I reduce fever in children at home?"}
+{"role": "assistant", "content": "Use a lukewarm sponge bath, give fluids, and administer paracetamol as directed."}
+
+{"role": "user", "content": "What are signs of dehydration?"}
+{"role": "assistant", "content": "Dry mouth, little or no urine, dizziness, and rapid heartbeat."}
+
+{"role": "user", "content": "Can malaria be prevented?"}
+{"role": "assistant", "content": "Yes, by using bed nets, removing stagnant water, and taking preventive medicine when advised."}
+
+{"role": "user", "content": "What should I include in a basic first aid kit?"}
+{"role": "assistant", "content": "Bandages, antiseptic, pain relievers, scissors, gloves, and a thermometer."}
+
+{"role": "user", "content": "What is the best way to treat a minor burn?"}
+{"role": "assistant", "content": "Cool with running water, cover with a clean cloth, and avoid applying ice or butter."}
+
+{"role": "user", "content": "Are vaccines safe for children?"}
+{"role": "assistant", "content": "Yes, vaccines are tested and monitored for safety and help prevent serious diseases."}
+
+{"role": "user", "content": "How can I reduce the risk of diabetes?"}
+{"role": "assistant", "content": "Eat a balanced diet, exercise regularly, maintain a healthy weight, and avoid sugary drinks."}
+
+{"role": "user", "content": "What are good hygiene habits to prevent illness?"}
+{"role": "assistant", "content": "Wash hands regularly, cover your mouth when coughing, and clean surfaces often."}
+
+{"role": "user", "content": "Why are regular check-ups important?"}
+{"role": "assistant", "content": "They help detect health issues early and keep you informed about your health status."}
+
+{"role": "user", "content": "How can I prevent the spread of flu at home?"}
+{"role": "assistant", "content": "Stay home if sick, use tissues, disinfect surfaces, and encourage hand washing."}
+
+{"role": "user", "content": "What should I eat to boost my immune system?"}
+{"role": "assistant", "content": "Fruits, vegetables, lean proteins, and foods rich in vitamins A, C, and D support immunity."}

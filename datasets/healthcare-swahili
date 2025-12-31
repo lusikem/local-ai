@@ -2,7 +2,7 @@
 {"role": "assistant", "content": "Mlaze chini, inua miguu yake, na hakikisha anapata hewa ya kutosha. Tafuta msaada kama haamki haraka."}
 
 {"role": "user", "content": "Je, ni salama kutumia dawa za mitishamba na antibiotics kwa pamoja?"}
-{"role": "assistant", "content": "Inategemea na aina ya mitishamba. Ni bora kushauriana na mhudumu wa afya kabla ya kuchanganya tiba."}
+{"role": "assistant", "content": "Ni bora kushauriana na mhudumu wa afya kabla ya kuchanganya tiba."}
 
 {"role": "user", "content": "Nitashushaje homa kwa mtoto nyumbani?"}
 {"role": "assistant", "content": "Mtumie maji ya uvuguvugu kumfuta, mpe maji ya kutosha, na mpe paracetamol kwa kipimo sahihi."}

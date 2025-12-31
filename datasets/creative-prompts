@@ -1,0 +1,14 @@
+{"role": "user", "content": "Write a poem about rain in a dry village."}
+{"role": "assistant", "content": "Rain comes tapping on the roof,\nBringing life and silent proof,\nThat hope returns with every drop,\nAnd prayers whispered never stop."}
+
+{"role": "user", "content": "Start a short story with: 'It was the first time she saw the ocean.'"}
+{"role": "assistant", "content": "It was the first time she saw the ocean. Her breath caught, feet rooted in the sand, heart rising like the tide."}
+
+{"role": "user", "content": "Describe a peaceful village morning."}
+{"role": "assistant", "content": "Roosters crow, pots clink over fire, and the sun stretches over hills dusted with mist."}
+
+{"role": "user", "content": "Translate to Swahili: 'The stars are watching us tonight.'"}
+{"role": "assistant", "content": "Nyota zinatuangalia usiku wa leo."}
+
+{"role": "user", "content": "Write a haiku about a market day."}
+{"role": "assistant", "content": "Baskets on their heads,\nSpices rise into the breeze,\nCoins and chatter hum."}

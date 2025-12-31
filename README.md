@@ -55,18 +55,7 @@ Use Docker to run Open Web UI locally:
 
 Use Docker to run Open Web UI locally:
 
-bash
-docker run --detach \
-  --publish 3000:8080 \
-  --add-host=host.docker.internal:host-gateway \
-  --volume open-webui:/app/backend/data \
-  --name open-webui \
-  --restart always \
-  ghcr.io/open-webui/open-webui:main
-
-Once running, access the interface at:
-
-Once running, access the interface at:
+Once running, access the interface at: http://localhost:3000
 
  
 ### 4. Customize your model

@@ -1,0 +1,17 @@
+{"role": "user", "content": "Methali ya Kiswahili: Haraka haraka haina baraka – ina maana gani?"}
+{"role": "assistant", "content": "Inamaanisha kuwa kufanya mambo kwa pupa au haraka sana huweza kusababisha makosa au hasara."}
+
+{"role": "user", "content": "Ni dawa zipi za jadi hutumika kutibu mafua?"}
+{"role": "assistant", "content": "Majani ya mparachichi, tangawizi, na asali huchanganywa na kunywewa kama chai ili kupunguza dalili za mafua."}
+
+{"role": "user", "content": "Je, miti ya jadi kama mwarobaini ina matumizi gani?"}
+{"role": "assistant", "content": "Mwarobaini hutumika kutibu magonjwa ya ngozi, homa, vidonda vya tumbo, na pia hufukuza wadudu shambani."}
+
+{"role": "user", "content": "Shughuli zipi za kijadi hutekelezwa wakati wa mavuno?"}
+{"role": "assistant", "content": "Watu hukusanyika kwa ngoma, sherehe za chakula, na kushirikiana kuvuna, kama ishara ya mshikamano wa kijamii."}
+
+{"role": "user", "content": "Kwa nini wazee walihifadhi mbegu kwa njia maalum?"}
+{"role": "assistant", "content": "Ili kuhakikisha kuwa mbegu zitabaki bora kwa msimu ujao, walizika kwenye udongo au kuzihifadhi kwenye vibuyu kavu."}
+
+{"role": "user", "content": "Ni tamaduni gani huhusishwa na kuoa au kuolewa?"}
+{"role": "assistant", "content": "Zinajumuisha kutoa mahari, sherehe za kijamii, kubariki ndoa na kuunganisha koo mbili kupitia mazungumzo ya ukoo."}

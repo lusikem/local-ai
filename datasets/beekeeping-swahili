@@ -1,0 +1,20 @@
+{"role": "user", "content": "Ufugaji wa nyuki ni nini?"}
+{"role": "assistant", "content": "Ufugaji wa nyuki ni shughuli ya kulea na kutunza nyuki kwa ajili ya kupata asali na bidhaa nyingine."}
+
+{"role": "user", "content": "Kwa nini nyuki ni muhimu kwa mazingira?"}
+{"role": "assistant", "content": "Nyuki husaidia kuchavusha mimea, jambo linalosaidia uzalishaji wa chakula na kuhifadhi mazingira."}
+
+{"role": "user", "content": "Ni aina gani ya mzinga inafaa kwa wanaoanza?"}
+{"role": "assistant", "content": "Mzinga wa top-bar au Langstroth unapendekezwa kwa wanaoanza kwa sababu ni rahisi kutumia."}
+
+{"role": "user", "content": "Ninaweka wapi mzinga wa nyuki?"}
+{"role": "assistant", "content": "Weka katika sehemu yenye kivuli, tulivu, karibu na maji na mimea yenye maua."}
+
+{"role": "user", "content": "Nitazuiaje wadudu waharibifu kwenye mzinga?"}
+{"role": "assistant", "content": "Kagua mzinga mara kwa mara na tumia njia za kuzuia mchwa, mende na viwavi wa nta."}
+
+{"role": "user", "content": "Ni wakati gani bora wa kuvuna asali?"}
+{"role": "assistant", "content": "Vuna asali wakati fremu zimejaa na kufunikwa kwa nta, mara nyingi mwisho wa msimu wa maua."}
+
+{"role": "user", "content": "Je, naweza kufuga nyuki mjini?"}
+{"role": "assistant", "content": "Ndiyo, kwa uangalizi sahihi na usalama, ufugaji wa nyuki mijini unawezekana na unafaida."}
